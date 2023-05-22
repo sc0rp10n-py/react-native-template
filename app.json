@@ -24,12 +24,12 @@
         "web": {
             "favicon": "./assets/favicon.png"
         },
-        // "extra": {
-        //     "eas": {
-        //         "projectId": <YOUR_PROJECT_ID>,
-        //     },
-        //     "devBackendUrl": <YOUR_DEV_BACKEND_URL>,
-        //     "prodBackendUrl": <YOUR_PROD_BACKEND_URL>,
-        // }
+        "extra": {
+            // "eas": {
+            //     "projectId": <YOUR_PROJECT_ID>,
+            // },
+            "devBackendUrl": "<YOUR_DEV_BACKEND_URL>",
+            "prodBackendUrl": "<YOUR_PROD_BACKEND_URL>",
+        }
     }
 }
