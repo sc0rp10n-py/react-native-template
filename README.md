@@ -8,6 +8,16 @@ npx expo start --tunnel
 adb reverse tcp:9090 tcp:9090
 ```
 
+```
+npm install --global expo-cli eas-cli
+expo login
+eas login
+# eas.json file
+eas build -p android --profile preview
+```
+
+>download apk from expo website
+
 > eas.json
 > to build apk instead of playstore build file
 
